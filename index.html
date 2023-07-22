@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Servicio Grupo Mundial</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/functions.js" defer></script>
+</head>
+<body>
+    <header class="main-header flex-container">
+        <div>
+            <a class="main-header__brand" href="index.html">
+                sgmTest
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav__items flex-container">
+                <li class="main-nav__item">
+                    <a href="#">
+                        About
+                    </a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">
+                        Blog
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <button class="toggle-button">
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+        </button>
+    </header>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="#">
+                    About
+                </a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="#">
+                    Contact
+                </a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="#">
+                    Blog
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main-section">
+        <h1>Main Section</h1>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+        veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
+        autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem
+        eum fugiat quo voluptas nulla pariatur?"</p>
+        <button id="getData">Get Data</button>
+    </main>
+    <section class="table-container">
+        <table id="dataTable" class="hide">
+            <thead>
+                <tr id="tableHead"></tr>
+            </thead>
+        </table>
+    </section>
+    <footer class="flex-container main-footer">
+        <div class="main-footer__contact-links-container">
+            <h2>Contact Links</h2>
+            <nav class="main-footer-nav">
+                <ul class="main-footer__links">
+                    <li class="main-footer__link">
+                        <a href="https://wa.me/50660211667" target="_blank">
+                            WhatsApp: +(506) 6021-1667
+                        </a>
+                    </li>
+                    <li class="main-footer__link">
+                        <a href="mailto:rmatera3108@gmail.com" target="_blank">
+                            Email: rmatera3108@gmail.com
+                        </a>
+                    </li>
+                    <li class="main-footer__link" target="_blank">
+                        <a href="#">
+                            Instagram: @rmaterapl
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-footer__map-container">
+            <h2>My Location</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15720.730860393402!2d-84.10360070000002!3d9.918735800000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0fcb75d05e7a3%3A0xcbc77147d7d9ed1a!2sHatillo%2C%20San%20Jos%C3%A9!5e0!3m2!1ses!2scr!4v1689880406494!5m2!1ses!2scr"
+                width="80%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </footer>
+</body>
+</html>
